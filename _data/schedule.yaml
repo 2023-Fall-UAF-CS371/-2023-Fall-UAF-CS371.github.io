@@ -53,7 +53,7 @@
   day_of_week: 2
   reading:
     -
-     title: "Chapter 2.2"
+     title: "Chapter 2.2: Deontology"
      pages: "30-43"
      length:
        value: 13
@@ -75,7 +75,7 @@
   day_of_week: 0
   reading:
     -
-     title: "Chapter 2.3"
+     title: "Chapter 2.3: Virtue Ethics"
      pages: "43-55"
      length:
        value: 12
@@ -100,7 +100,7 @@
   day_of_week: 0
   reading:
     -
-     title: "Chapter 2.4"
+     title: "Chapter 2.4: Communitarianism"
      pages: "55-68"
      length:
        value: 13
@@ -125,7 +125,7 @@
   day_of_week: 0
   reading:
     -
-     title: "Chapter 2.5"
+     title: "Chapter 2.5: Utilitarianism"
      pages: "68-79"
      length:
        value: 11
@@ -212,37 +212,95 @@
 -
 ##################################
   start_new_week: true   # Week 7
+  topic: "Managing Knowledge"
 ##################################
   day_of_week: 0
--
-  day_of_week: 2
-  topic: "Crime"
   reading:
     -
-     title: "Chapter 7"
-     pages: "175-198"
+     title: "Chapter 3 Learning Objectives"
+     pages: "99"
      length:
-       value: 24
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 3.1: Managing Knowledge"
+     pages: "99-102"
+     length:
+       value: 2
+       unit: "pages"
+    -
+     title: "Chapter 3.2: Not Value Neutral"
+     pages: "102-113"
+     length:
+       value: 11
+       unit: "pages"
+-
+  day_of_week: 2
+  reading:
+    -
+     title: "Story: Here and Now"
+     pages: "415-420"
+     length:
+       value: 6
        unit: "pages"
 -
   day_of_week: 4
+  reading:
+    -
+     title: "Chapter 3.3: Difficulty"
+     pages: "113-117"
+     length:
+       value: 4
+       unit: "pages"
+    -
+     title: "Story: Codename Delphi"
+     pages: "405-414"
+     length:
+       value: 10
+       unit: "pages"
 -
 ##################################
   start_new_week: true   # Week 8
+  topic: "Automation and Data"
 ##################################
   day_of_week: 0
--
-  day_of_week: 2
-  topic: "Copyright,<br/>Trademark,<br/> and Patents"
   reading:
     -
-     title: "Chapter 8"
-     pages: "201-232"
+     title: "Chapter 3.4: Automated Decision-Making Systems and Bias"
+     pages: "117-123"
      length:
-       value: 32
+       value: 6
+       unit: "pages"
+-
+  day_of_week: 2
+  reading:
+    -
+     title: "Chapter 3.5 - 3.6: Storing Knowledge"
+     pages: "123-133"
+     length:
+       value: 11
+       unit: "pages"
+    -
+     title: "Story: Lacuna Heights"
+     pages: "421-434"
+     length:
+       value: 13
        unit: "pages"
 -
   day_of_week: 4
+  reading:
+    -
+     title: "Chapter 3.7: Closing Thoughts"
+     pages: "133-134"
+     length:
+       value: 2
+       unit: "pages"
+    -
+     title: "Chapter 3 Reflection Questions"
+     pages: "134-135"
+     length:
+       value: 1
+       unit: "pages"
 -
 ##################################
   start_new_week: true   # Week 9
