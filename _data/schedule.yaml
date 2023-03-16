@@ -307,27 +307,125 @@
   topic: "Personhood and Privacy"
 ##################################
   day_of_week: 0
+  reading:
+    -
+     title: "Chapter 4 Learning Objectives"
+     pages: "141"
+     length:
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 4.1: Introduction"
+     pages: "142-144"
+     length:
+       value: 3
+       unit: "pages"
+    -
+     title: "Chapter 4.2: What is Personhood?"
+     pages: "144-156"
+     length:
+       value: 12
+       unit: "pages"
 -
   day_of_week: 2
+  reading:
+    -
+     title: "Chapter 4.3: Personhood and Technology"
+     pages: "156-170"
+     length:
+       value: 14
+       unit: "pages"
 -
   day_of_week: 4
+  reading:
+    -
+     title: "Story: Not Smart, Not Clevery"
+     pages: "435-448"
+     length:
+       value: 13
+       unit: "pages"
+    -
+     title: "Chapter 4.4: Powers and Limits of Definitions"
+     pages: "170"
+     length:
+       value: 1
+       unit: "pages"
 -
 ##################################
   start_new_week: true   # Week 10
 ##################################
   day_of_week: 0
+  reading:
+    -
+     title: "Chapter 4.5: Personhood and Privacy"
+     pages: "170-188"
+     length:
+       value: 18
+       unit: "pages"
 -
   day_of_week: 2
+  reading:
+    -
+     title: "Chapter 4.6: Privacy, Information Technology, and Personhood"
+     pages: "188-193"
+     length:
+       value: 6
+       unit: "pages"
 -
   day_of_week: 4
+  reading:
+    -
+     title: "Chapter 4.7: Concluding Remarks"
+     pages: "193-194"
+     length:
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 4 Reflection Questions"
+     pages: "194-195"
+     length:
+       value: 1
+       unit: "pages"
 -
 ##################################
   start_new_week: true   # Week 11
   topic: "Technology and Society"
 ##################################
   day_of_week: 0
+  reading:
+    -
+     title: "Chapter 5 Learning Objectives"
+     pages: "203"
+     length:
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 5.1: Introduction"
+     pages: "203-207"
+     length:
+       value: 4
+       unit: "pages"
+    -
+     title: "Chapter 5.2: Technology"
+     pages: "208-216"
+     length:
+       value: 9
+       unit: "pages"
 -
   day_of_week: 2
+  reading:
+    -
+     title: "Chapter 5.3: Science and Technology Studies"
+     pages: "216-218"
+     length:
+       value: 2
+       unit: "pages"
+    -
+     title: "Chapter 5.4: Analyzing Sociotechnical Systems"
+     pages: "218-230"
+     length:
+       value: 12
+       unit: "pages"
 -
   day_of_week: 4
 -
@@ -335,8 +433,34 @@
   start_new_week: true   # Week 12
 ##################################
   day_of_week: 0
+  reading:
+    -
+     title: "Chapter 5.5: Technology in Context"
+     pages: "230-262"
+     length:
+       value: 32
+       unit: "pages"
 -
   day_of_week: 2
+  reading:
+    -
+     title: "Chapter 5.6: Closing Thoughts"
+     pages: "262"
+     length:
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 5 Reflection Questions"
+     pages: "263-264"
+     length:
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 5 Background References and Additional Reading"
+     pages: "264"
+     length:
+       value: 1
+       unit: "pages"
 -
   day_of_week: 4
 -
