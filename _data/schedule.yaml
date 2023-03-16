@@ -29,10 +29,16 @@
   day_of_week: 4
   reading:
     -
+     title: "Chapter 2 Learning Objectives"
+     pages: "25"
+     length:
+       value: 1
+       unit: "pages"
+    -
      title: "Chapter 2.1: Ethical Frameworks - Introduction"
      pages: "25-30"
      length:
-       value: 6
+       value: 5
        unit: "pages"
 -
 ##################################
@@ -144,7 +150,7 @@
   day_of_week: 0
   reading:
     -
-     title: "Chapter 2.6.0"
+     title: "Chapter 2.6.0: Contemporary Developments in Ethics"
      pages: "79"
      length:
        value: 1
@@ -190,6 +196,18 @@
      pages: "461-475"
      length:
        value: 14
+       unit: "pages"
+    -
+     title: "Chapter 2.7: The Importance of Multiple Frameworks"
+     pages: "87"
+     length:
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 2 Reflection Questions"
+     pages: "87-89"
+     length:
+       value: 2
        unit: "pages"
 -
 ##################################
@@ -296,6 +314,7 @@
 -
 ##################################
   start_new_week: true   # Week 13
+  topic: "Thanksgiving Break"
 ##################################
   day_of_week: 0
 -
