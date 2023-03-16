@@ -1,0 +1,256 @@
+-
+  start_new_week: true   # Week 1
+  topic: "Syllabus"
+  day_of_week: 0
+  reading:
+    -
+     title: "Syllabus"
+     url: ..
+     length:
+       value: 6
+       unit: "pages"
+-
+  topic: "Introduction"
+  day_of_week: 2
+  reading:
+    -
+     title: "Chapter 1"
+     pages: "1-24"
+     length:
+       value: 24
+       unit: "pages"
+-
+  day_of_week: 4
+  reading:
+    -
+     title: "Continued discussion of Chapter 1"
+-
+##################################
+  start_new_week: true   # Week 2
+##################################
+  day_of_week: 0
+  reading:
+    -
+     title: "NO CLASS - LABOR DAY"
+-
+  day_of_week: 2
+  topic: "Ethics"
+  reading:
+    -
+     title: "Chapter 2"
+     pages: "27-61"
+     length:
+       value: 35
+       unit: "pages"
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 3
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+  topic: "Critical<br/>Reasoning"
+  reading:
+    -
+     title: "Chapter 3"
+     pages: "63-85"
+     length:
+       value: 23
+       unit: "pages"
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 4
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+  topic: "Professional<br/>Ethics"
+  reading:
+    -
+     title: "Chapter 4"
+     pages: "87-110"
+     length:
+       value: 24
+       unit: "pages"
+-
+  day_of_week: 4
+  reading:
+    -
+     title: "ACM Code of Ethics and Professional Conduct"
+     url:   https://ethics.acm.org
+     length:
+       value: 10
+       unit: "pages"
+-
+##################################
+  start_new_week: true   # Week 5
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+  topic: "Privacy"
+  reading:
+    -
+     title: "Chapter 5"
+     pages: "113-148"
+     length:
+       value: 36
+       unit: "pages"
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 6
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+  topic: "Security"
+  reading:
+    -
+     title: "Chapter 6"
+     pages: "151-171"
+     length:
+       value: 21
+       unit: "pages"
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 7
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+  topic: "Crime"
+  reading:
+    -
+     title: "Chapter 7"
+     pages: "175-198"
+     length:
+       value: 24
+       unit: "pages"
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 8
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+  topic: "Copyright,<br/>Trademark,<br/> and Patents"
+  reading:
+    -
+     title: "Chapter 8"
+     pages: "201-232"
+     length:
+       value: 32
+       unit: "pages"
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 9
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+  topic: "Regulation"
+  reading:
+    -
+     title: "Chapter 9"
+     pages: "236-260"
+     length:
+       value: 25
+       unit: "pages"
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 10
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+  topic: "Digital Divide"
+  reading:
+    -
+     title: "Chapter 10"
+     pages: "263-289"
+     length:
+       value: 26
+       unit: "pages"
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 11
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+  topic: "Social media,<br/> VR, and AI"
+  reading:
+    -
+     title: "Chapter 11"
+     pages: "292-314"
+     length:
+       value: 22
+       unit: "pages"
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 12
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+  topic: "Emerging<br/>Technology"
+  reading:
+    -
+     title: "Chapter 12"
+     pages: "317-343"
+     length:
+       value: 26
+       unit: "pages"
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 13
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 14
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 15
+##################################
+  day_of_week: 0
+-
+  day_of_week: 2
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 16
+##################################
+  topic: "Final Exam"
+  day_of_week: 2

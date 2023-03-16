@@ -1,0 +1,66 @@
+site: "CS 371"
+url: https://www.cs.uaf.edu/courses/cs371/2022-fall/
+title: "CS 371"
+description: "Computer Ethics and Technical Communication"
+
+logistics:
+    location:
+        building: Duckering
+        room: 541
+        url:  https://uaf.edu/campusmap/for-visitors/buildings/duckering.php
+    date: "MWF "
+        
+        
+instructor:
+  name: "Lane Schwartz"
+  email: "lane.schwartz@alaska.edu"
+  phone: "+1-907-474-6104"
+  office:
+    building:
+        name: Duckering
+        url:  https://uaf.edu/campusmap/for-visitors/buildings/duckering.php
+        room: 541
+    
+
+permalink: pretty
+
+paginate:            1000
+paginate_path:       "/page:num/"
+baseurl:             ""
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap  
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
