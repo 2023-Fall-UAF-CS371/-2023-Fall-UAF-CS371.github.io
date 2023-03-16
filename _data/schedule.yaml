@@ -479,17 +479,76 @@
   topic: "Professional Ethics"
 ##################################
   day_of_week: 0
+  reading:
+    -
+     title: "Chapter 6 Learning Objectives"
+     pages: "279"
+     length:
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 6.1: Introduction"
+     pages: "279-280"
+     length:
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 6.2: Professions"
+     pages: "280-290"
+     length:
+       value: 10
+       unit: "pages"
 -
   day_of_week: 2
+  reading:
+    -
+     title: "Chapter 6.3: Codes of Ethics"
+     pages: "290-302"
+     length:
+       value: 12
+       unit: "pages"
 -
   day_of_week: 4
+  reading:
+    -
+     title: "Story: Asleep at the Wheel"
+     pages: "391-404"
+     length:
+       value: 14
+       unit: "pages"
 -
 ##################################
   start_new_week: true   # Week 15
 ##################################
   day_of_week: 0
+  reading:
+    -
+     title: "Chapter 6.4: Suggestions on Ethics in Practice"
+     pages: "302-305"
+     length:
+       value: 4
+       unit: "pages"
+    -
+     title: "Chapter 6.5: Codes of Ethics and You"
+     pages: "305-307"
+     length:
+       value: 2
+       unit: "pages"
 -
   day_of_week: 2
+  reading:
+    -
+     title: "Chapter 6 Reflection Questions"
+     pages: "307-308"
+     length:
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 6 Background References and Additional Reading"
+     pages: "309"
+     length:
+       value: 1
+       unit: "pages"
 -
   day_of_week: 4
 -
