@@ -444,6 +444,27 @@
   day_of_week: 2
   reading:
     -
+     title: "Story: Apologia"
+     pages: "385-390"
+     length:
+       value: 6
+       unit: "pages"
+    -
+     title: "Chapter 5 Reflection Questions"
+     pages: "263-264"
+     length:
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 5 Background References and Additional Reading"
+     pages: "264"
+     length:
+       value: 1
+       unit: "pages"
+-
+  day_of_week: 4
+  reading:
+    -
      title: "Chapter 5.6: Closing Thoughts"
      pages: "262"
      length:
@@ -461,8 +482,6 @@
      length:
        value: 1
        unit: "pages"
--
-  day_of_week: 4
 -
 ##################################
   start_new_week: true   # Week 13
