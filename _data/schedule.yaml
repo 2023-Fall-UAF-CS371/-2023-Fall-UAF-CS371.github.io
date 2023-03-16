@@ -64,15 +64,65 @@
 -
 ##################################
   start_new_week: true   # Week 3
+  topic: "Virtue Ethics"
+##################################
+  day_of_week: 0
+  reading:
+    -
+     title: "Chapter 2.3"
+     pages: "43-55"
+     length:
+       value: 12
+       unit: "pages"
+
+-
+  day_of_week: 2
+  reading:
+    -
+     title: "Story: The Gambler"
+     pages: "353-374"
+     length:
+       value: 21
+       unit: "pages"
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 4
+  topic: "Communtarianism"
+##################################
+  day_of_week: 0
+  reading:
+    -
+     title: "Chapter 2.4"
+     pages: "55-68"
+     length:
+       value: 13
+       unit: "pages"
+
+-
+  day_of_week: 2
+  reading:
+    -
+     title: "Story: The Regression Test"
+     pages: "375-384"
+     length:
+       value: 10
+       unit: "pages"
+-
+  day_of_week: 4
+-
+##################################
+  start_new_week: true   # Week 5
   topic: "Utilitarianism"
 ##################################
   day_of_week: 0
   reading:
     -
-     title: "Chapter 2.2"
-     pages: "63-85"
+     title: "Chapter 2.5"
+     pages: "68-79"
      length:
-       value: 23
+       value: 11
        unit: "pages"
 
 -
@@ -83,47 +133,6 @@
      pages: "337-352"
      length:
        value: 15
-       unit: "pages"
--
-  day_of_week: 4
--
-##################################
-  start_new_week: true   # Week 4
-##################################
-  day_of_week: 0
--
-  day_of_week: 2
-  topic: "Professional<br/>Ethics"
-  reading:
-    -
-     title: "Chapter 4"
-     pages: "87-110"
-     length:
-       value: 24
-       unit: "pages"
--
-  day_of_week: 4
-  reading:
-    -
-     title: "ACM Code of Ethics and Professional Conduct"
-     url:   https://ethics.acm.org
-     length:
-       value: 10
-       unit: "pages"
--
-##################################
-  start_new_week: true   # Week 5
-##################################
-  day_of_week: 0
--
-  day_of_week: 2
-  topic: "Privacy"
-  reading:
-    -
-     title: "Chapter 5"
-     pages: "113-148"
-     length:
-       value: 36
        unit: "pages"
 -
   day_of_week: 4
