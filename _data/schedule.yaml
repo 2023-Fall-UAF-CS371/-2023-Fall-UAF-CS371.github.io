@@ -19,32 +19,79 @@
   day_of_week: 2
   reading:
     -
+     title: "Chapter 1 Learning Objectives"
+     pages: "1"
+     length:
+       value: 3
+       unit: "pages"
+    -
+     title: "Chapter 1.1: Introduction"
+     pages: "3-5"
+     length:
+       value: 2
+       unit: "pages"
+    -
      title: "Introduction to the Story Bank"
      pages: "315-321"
      length:
        value: 7
        unit: "pages"
-
     -
-     title: "Chapter 1: Why Ethics? Why Science Fiction"
-     pages: "1-24"
+     title: "Chapter 1.2: What Does It Mean"
+     pages: "6-7"
      length:
-       value: 24
+       value: 2
        unit: "pages"
 -
   day_of_week: 4
   reading:
     -
-     title: "Chapter 2 Learning Objectives"
-     pages: "25"
+     title: "Chapter 1.3: Why Study Ethics?"
+     pages: "8-12"
+     length:
+       value: 5
+       unit: "pages"
+    -
+     title: "Chapter 1.4: Why Technology and Ethics?"
+     pages: "12-16"
+     length:
+       value: 4
+       unit: "pages"
+    -
+     title: "Chapter 1.5: Why Science Fiction?"
+     pages: "16-19"
+     length:
+       value: 3
+       unit: "pages"
+    -
+     title: "Chapter 1.6: Professional Ethics"
+     pages: "19-20"
      length:
        value: 1
        unit: "pages"
     -
-     title: "Chapter 2.1: Ethical Frameworks - Introduction"
-     pages: "25-30"
+     title: "Chapter 1.7: Thinking with Ethical Frameworks"
+     pages: "20"
      length:
-       value: 5
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 1.8: Life After Ethics Class"
+     pages: "20-21"
+     length:
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 1.9: The Rest of This Book"
+     pages: "21-22"
+     length:
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 1 Reflection Questions"
+     pages: "22-23"
+     length:
+       value: 1
        unit: "pages"
 -
 ##################################
@@ -59,17 +106,23 @@
   day_of_week: 2
   reading:
     -
-     title: "Chapter 2.2: Deontology"
-     pages: "30-43"
+     title: "Chapter 2 Learning Objectives"
+     pages: "25"
      length:
-       value: 13
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 2.1: Ethical Frameworks - Introduction"
+     pages: "25-30"
+     length:
+       value: 5
        unit: "pages"
 -
   day_of_week: 4
   reading:
     -
-     title: "Story: Dolly"
-     pages: "323-336"
+     title: "Chapter 2.2: Deontology"
+     pages: "30-43"
      length:
        value: 13
        unit: "pages"
@@ -81,14 +134,22 @@
   day_of_week: 0
   reading:
     -
+     title: "Story: Dolly"
+     pages: "323-336"
+     length:
+       value: 13
+       unit: "pages"
+-
+  day_of_week: 2
+  reading:
+    -
      title: "Chapter 2.3: Virtue Ethics"
      pages: "43-55"
      length:
        value: 12
        unit: "pages"
-
 -
-  day_of_week: 2
+  day_of_week: 4
   reading:
     -
      title: "Story: The Gambler"
@@ -96,8 +157,6 @@
      length:
        value: 21
        unit: "pages"
--
-  day_of_week: 4
 -
 ##################################
   start_new_week: true   # Week 4
