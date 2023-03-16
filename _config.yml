@@ -5,6 +5,16 @@ description: "Computer Ethics and Technical Communication"
 
 forum: https://campuswire.com/c/G96191AB6
 
+textbook:
+    title: "Computing and Technology Ethics: Engaging through Science Fiction"
+    author: "Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory Siler and Sara-Jo Swiatek"
+    url: https://mitpress.mit.edu/9780262048064/computing-and-technology-ethics/
+    amazon: https://www.amazon.com/dp/026204806X
+    rent: "https://mitpress.ublish.com/book/computing-and-technology-ethics-engaging-through-science-fiction#purchase"
+    isbn: 9780262048064
+    publisher: "MIT Press"
+    edition: "1st"
+
 logistics:
     location:
         building: Duckering
