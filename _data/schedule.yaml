@@ -1,6 +1,6 @@
 -
   start_new_week: true   # Week 1
-  topic: "Syllabus"
+  topic: "Introduction"
   day_of_week: 0
   reading:
     -
@@ -10,11 +10,17 @@
        value: 6
        unit: "pages"
 -
-  topic: "Introduction"
   day_of_week: 2
   reading:
     -
-     title: "Chapter 1"
+     title: "Introduction to the Story Bank"
+     pages: "315-317"
+     length:
+       value: 3
+       unit: "pages"
+
+    -
+     title: "Chapter 1: Why Ethics? Why Science Fiction"
      pages: "1-24"
      length:
        value: 24
@@ -23,10 +29,15 @@
   day_of_week: 4
   reading:
     -
-     title: "Continued discussion of Chapter 1"
+     title: "Chapter 2.1: Ethical Frameworks - Introduction"
+     pages: "25-30"
+     length:
+       value: 6
+       unit: "pages"
 -
 ##################################
   start_new_week: true   # Week 2
+  topic: "Deontology"
 ##################################
   day_of_week: 0
   reading:
@@ -34,30 +45,41 @@
      title: "NO CLASS - LABOR DAY"
 -
   day_of_week: 2
-  topic: "Ethics"
   reading:
     -
-     title: "Chapter 2"
-     pages: "27-61"
+     title: "Chapter 2.2"
+     pages: "30-43"
      length:
-       value: 35
+       value: 13
        unit: "pages"
 -
   day_of_week: 4
+     title: "Story: Dolly"
+     pages: "323-336"
+     length:
+       value: 13
+       unit: "pages"
 -
 ##################################
   start_new_week: true   # Week 3
+  topic: "Utilitarianism"
 ##################################
   day_of_week: 0
--
-  day_of_week: 2
-  topic: "Critical<br/>Reasoning"
   reading:
     -
-     title: "Chapter 3"
+     title: "Chapter 2.2"
      pages: "63-85"
      length:
        value: 23
+       unit: "pages"
+
+-
+  day_of_week: 2
+  reading:
+     title: "Story: Message in a Bottle"
+     pages: "337-352"
+     length:
+       value: 15
        unit: "pages"
 -
   day_of_week: 4
