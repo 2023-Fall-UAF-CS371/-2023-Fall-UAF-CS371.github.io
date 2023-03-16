@@ -435,13 +435,52 @@
   day_of_week: 0
   reading:
     -
-     title: "Chapter 5.5: Technology in Context"
-     pages: "230-262"
+     title: "Chapter 5.5.0: Technology in Context"
+     pages: "230"
      length:
-       value: 32
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 5.5.1: Structures of Care"
+     pages: "230-237"
+     length:
+       value: 7
+       unit: "pages"
+    -
+     title: "Chapter 5.5.2: Public Discourse and Political Deliberation"
+     pages: "238-244"
+     length:
+       value: 6
        unit: "pages"
 -
   day_of_week: 2
+  reading:
+    -
+     title: "Chapter 5.5.3: Companionship, Friendship, and Communities"
+     pages: "244-249"
+     length:
+       value: 5
+       unit: "pages"
+    -
+     title: "Chapter 5.5.4: Ecology and the Environment"
+     pages: "249-253"
+     length:
+       value: 5
+       unit: "pages"
+    -
+     title: "Chapter 5.5.5: State Power and Force"
+     pages: "254-259"
+     length:
+       value: 5
+       unit: "pages"
+    -
+     title: "Chapter 5.5.6: Work and Labor"
+     pages: "259-262"
+     length:
+       value: 3
+       unit: "pages"
+-
+  day_of_week: 4
   reading:
     -
      title: "Story: Apologia"
@@ -449,9 +488,6 @@
      length:
        value: 6
        unit: "pages"
--
-  day_of_week: 4
-  reading:
     -
      title: "Chapter 5.6: Closing Thoughts"
      pages: "262"
