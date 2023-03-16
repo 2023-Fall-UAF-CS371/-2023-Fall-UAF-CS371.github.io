@@ -54,6 +54,8 @@
        unit: "pages"
 -
   day_of_week: 4
+  reading:
+    -
      title: "Story: Dolly"
      pages: "323-336"
      length:
@@ -76,6 +78,7 @@
 -
   day_of_week: 2
   reading:
+    -
      title: "Story: Message in a Bottle"
      pages: "337-352"
      length:
