@@ -9,6 +9,12 @@
      length:
        value: 6
        unit: "pages"
+    -
+     title: "Table of Contents"
+     pages: "v-xv"
+     length:
+       value: 11
+       unit: "pages"
 -
   day_of_week: 2
   reading:
