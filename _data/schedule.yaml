@@ -139,20 +139,58 @@
 -
 ##################################
   start_new_week: true   # Week 6
+  topic: "Contemporary Developments"
 ##################################
   day_of_week: 0
--
-  day_of_week: 2
-  topic: "Security"
   reading:
     -
-     title: "Chapter 6"
-     pages: "151-171"
+     title: "Chapter 2.6.0"
+     pages: "79"
      length:
-       value: 21
+       value: 1
+       unit: "pages"
+    -
+     title: "Chapter 2.6.1: Responsibility Ethics"
+     pages: "79-81"
+     length:
+       value: 2
+       unit: "pages"
+    -
+     title: "Story: Codename: Delphi"
+     pages: "405-414"
+     length:
+       value: 10
+       unit: "pages"
+-
+  day_of_week: 2
+  reading:
+    -
+     title: "Chapter 2.6.2: Feminist Ethics"
+     pages: "82-84"
+     length:
+       value: 3
+       unit: "pages"
+    -
+     title: "Story: Today I Am Paul"
+     pages: "449-460"
+     length:
+       value: 11
        unit: "pages"
 -
   day_of_week: 4
+  reading:
+    -
+     title: "Chapter 2.6.3: The Capability Approach"
+     pages: "84-87"
+     length:
+       value: 2
+       unit: "pages"
+    -
+     title: "Story: Welcome to Your Authentic Indian Experience™️"
+     pages: "461-475"
+     length:
+       value: 14
+       unit: "pages"
 -
 ##################################
   start_new_week: true   # Week 7
