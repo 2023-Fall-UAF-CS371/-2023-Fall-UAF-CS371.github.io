@@ -449,18 +449,6 @@
      length:
        value: 6
        unit: "pages"
-    -
-     title: "Chapter 5 Reflection Questions"
-     pages: "263-264"
-     length:
-       value: 1
-       unit: "pages"
-    -
-     title: "Chapter 5 Background References and Additional Reading"
-     pages: "264"
-     length:
-       value: 1
-       unit: "pages"
 -
   day_of_week: 4
   reading:
