@@ -304,18 +304,11 @@
 -
 ##################################
   start_new_week: true   # Week 9
+  topic: "Personhood and Privacy"
 ##################################
   day_of_week: 0
 -
   day_of_week: 2
-  topic: "Regulation"
-  reading:
-    -
-     title: "Chapter 9"
-     pages: "236-260"
-     length:
-       value: 25
-       unit: "pages"
 -
   day_of_week: 4
 -
@@ -325,31 +318,16 @@
   day_of_week: 0
 -
   day_of_week: 2
-  topic: "Digital Divide"
-  reading:
-    -
-     title: "Chapter 10"
-     pages: "263-289"
-     length:
-       value: 26
-       unit: "pages"
 -
   day_of_week: 4
 -
 ##################################
   start_new_week: true   # Week 11
+  topic: "Technology and Society"
 ##################################
   day_of_week: 0
 -
   day_of_week: 2
-  topic: "Social media,<br/> VR, and AI"
-  reading:
-    -
-     title: "Chapter 11"
-     pages: "292-314"
-     length:
-       value: 22
-       unit: "pages"
 -
   day_of_week: 4
 -
@@ -359,14 +337,6 @@
   day_of_week: 0
 -
   day_of_week: 2
-  topic: "Emerging<br/>Technology"
-  reading:
-    -
-     title: "Chapter 12"
-     pages: "317-343"
-     length:
-       value: 26
-       unit: "pages"
 -
   day_of_week: 4
 -
@@ -382,6 +352,7 @@
 -
 ##################################
   start_new_week: true   # Week 14
+  topic: "Professional Ethics"
 ##################################
   day_of_week: 0
 -
