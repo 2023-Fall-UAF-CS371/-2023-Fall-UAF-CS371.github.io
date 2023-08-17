@@ -309,6 +309,7 @@
        unit: "pages"
 -
   day_of_week: 2
+  reading:
     -
      title: "Story: Codename Delphi"
      pages: "405-414"
