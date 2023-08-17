@@ -2,14 +2,10 @@
 
 The learning outcomes listed below are closely adapted from those listed at the beginning of each chapter in [{{ site.textbook.title }}]({{ site.textbook.url }}), {% if site.textbook.edition %}{{ site.textbook.edition }} edition {% endif %}by {{ site.textbook.author }}.
 
-## Chapter One
+## Unit 1
 ### Why ethics? Why science fiction?
 
 After completing chapter 1, you will be able to
-
-* Identify and describe
-    - normative ethics
-    - descriptive ethics
 
 * Explain the difference between the objectives of
     - normative ethics
@@ -32,10 +28,10 @@ After completing chapter 1, you will be able to
     - personal ethics
     - professional ethics
 
-* List reasons why studying ethics is important for technologists
+* List reasons why studying ethics is important for computer scientists
 
 
-## Chapter 2
+## Unit 2
 ### Ethical frameworks
 
 * Explain why multiple ethical frameworks have developed for understanding the world instead of one unified theory
@@ -62,7 +58,7 @@ After completing chapter 1, you will be able to
 * Formulate the key ethical tensions within a story by drawing on the conceptual resources of the ethical frameworks
 
 
-## Chapter 3
+## Unit 3
 ### Managing knowledge
 
 * DIKW paradigm
@@ -85,7 +81,7 @@ After completing chapter 1, you will be able to
 * Justify the claim that knowledge is a shared enterprise by tracing the different ways we come to know things both as individuals and as a society
 
 
-## Chapter 4
+## Unit 4
 ### Personhood and privacy
 
 * Types of questions
@@ -106,7 +102,7 @@ After completing chapter 1, you will be able to
 * Justify privacy as a necessary condition for personhood and defend this condition in the presence of ever-changing technology
 
 
-## Chapter 5
+## Unit 5
 ### Technology and society
 
 * Technology and society
@@ -129,7 +125,7 @@ After completing chapter 1, you will be able to
   - work and labor
 
 
-## Chapter 6
+## Unit 6
 ### Professional ethics
 
 * Profession
