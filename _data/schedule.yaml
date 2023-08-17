@@ -32,9 +32,9 @@
        unit: "pages"
     -
      title: "Chapter 1 Learning Objectives"
-     pages: "1"
+     pages: "3"
      length:
-       value: 3
+       value: 1
        unit: "pages"
 -
   day_of_week: 4
@@ -102,13 +102,13 @@
 -
 ##################################
   start_new_week: true   # Week 2
-  topic: "Deontology"
 ##################################
   day_of_week: 0
   reading:
     -
      title: "NO CLASS - LABOR DAY"
 -
+  topic: "Deontology"
   day_of_week: 2
   reading:
     -
