@@ -214,6 +214,7 @@
        unit: "pages"
 -
   day_of_week: 4
+  reading:
     -
      title: "Chapter 2.6.0: Contemporary Developments in Ethics"
      pages: "79"
