@@ -189,11 +189,6 @@
        unit: "pages"
 -
   day_of_week: 4
--
-##################################
-  start_new_week: true   # Week 5
-##################################
-  day_of_week: 0
   reading:
     -
      title: "Chapter 2.5: Utilitarianism"
@@ -201,10 +196,12 @@
      length:
        value: 11
        unit: "pages"
-
 -
+##################################
+  start_new_week: true   # Week 5
+##################################
+  day_of_week: 0
   topic: "Contemporary Developments"
-  day_of_week: 2
   reading:
     -
      title: "Story: Codename: Delphi"
@@ -212,8 +209,9 @@
      length:
        value: 10
        unit: "pages"
+
 -
-  day_of_week: 4
+  day_of_week: 2
   reading:
     -
      title: "Chapter 2.6.0: Contemporary Developments in Ethics"
@@ -227,6 +225,9 @@
      length:
        value: 2
        unit: "pages"
+-
+  day_of_week: 4
+
 -
 ##################################
   start_new_week: true   # Week 6
