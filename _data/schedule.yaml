@@ -140,10 +140,10 @@
   day_of_week: 0
   reading:
     -
-     title: "Story: Dolly"
-     pages: "323-336"
+     title: "Story: The Gambler"
+     pages: "353-374"
      length:
-       value: 13
+       value: 21
        unit: "pages"
 -
   day_of_week: 2
@@ -155,18 +155,18 @@
        value: 12
        unit: "pages"
 -
+  topic: "Communtarianism"
   day_of_week: 4
   reading:
     -
-     title: "Story: The Gambler"
-     pages: "353-374"
+     title: "Story: The Regression Test"
+     pages: "375-384"
      length:
-       value: 21
+       value: 10
        unit: "pages"
 -
 ##################################
   start_new_week: true   # Week 4
-  topic: "Communtarianism"
 ##################################
   day_of_week: 0
   reading:
@@ -178,20 +178,20 @@
        unit: "pages"
 
 -
+  topic: "Utilitarianism"
   day_of_week: 2
   reading:
     -
-     title: "Story: The Regression Test"
-     pages: "375-384"
+     title: "Story: Message in a Bottle"
+     pages: "337-352"
      length:
-       value: 10
+       value: 15
        unit: "pages"
 -
   day_of_week: 4
 -
 ##################################
   start_new_week: true   # Week 5
-  topic: "Utilitarianism"
 ##################################
   day_of_week: 0
   reading:
