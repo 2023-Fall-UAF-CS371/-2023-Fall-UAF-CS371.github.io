@@ -227,12 +227,6 @@
        unit: "pages"
 -
   day_of_week: 4
-
--
-##################################
-  start_new_week: true   # Week 6
-##################################
-  day_of_week: 0
   reading:
     -
      title: "Story: Today I Am Paul"
@@ -241,7 +235,10 @@
        value: 11
        unit: "pages"
 -
-  day_of_week: 2
+##################################
+  start_new_week: true   # Week 6
+##################################
+  day_of_week: 0
   reading:
     -
      title: "Chapter 2.6.2: Feminist Ethics"
@@ -250,7 +247,7 @@
        value: 3
        unit: "pages"
 -
-  day_of_week: 4
+  day_of_week: 2
   reading:
     -
      title: "Story: Welcome to Your Authentic Indian Experience™️"
@@ -277,9 +274,18 @@
        value: 2
        unit: "pages"
 -
+  day_of_week: 4
+  topic: "Managing Knowledge"
+  reading:
+    -
+     title: "Story: Here and Now"
+     pages: "415-420"
+     length:
+       value: 6
+       unit: "pages"
+-
 ##################################
   start_new_week: true   # Week 7
-  topic: "Managing Knowledge"
 ##################################
   day_of_week: 0
   reading:
@@ -303,12 +309,11 @@
        unit: "pages"
 -
   day_of_week: 2
-  reading:
     -
-     title: "Story: Here and Now"
-     pages: "415-420"
+     title: "Story: Codename Delphi"
+     pages: "405-414"
      length:
-       value: 6
+       value: 10
        unit: "pages"
 -
   day_of_week: 4
@@ -318,12 +323,6 @@
      pages: "113-117"
      length:
        value: 4
-       unit: "pages"
-    -
-     title: "Story: Codename Delphi"
-     pages: "405-414"
-     length:
-       value: 10
        unit: "pages"
 -
 ##################################
