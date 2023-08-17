@@ -203,23 +203,17 @@
        unit: "pages"
 
 -
+  topic: "Contemporary Developments"
   day_of_week: 2
   reading:
     -
-     title: "Story: Message in a Bottle"
-     pages: "337-352"
+     title: "Story: Codename: Delphi"
+     pages: "405-414"
      length:
-       value: 15
+       value: 10
        unit: "pages"
 -
   day_of_week: 4
--
-##################################
-  start_new_week: true   # Week 6
-  topic: "Contemporary Developments"
-##################################
-  day_of_week: 0
-  reading:
     -
      title: "Chapter 2.6.0: Contemporary Developments in Ethics"
      pages: "79"
@@ -232,11 +226,17 @@
      length:
        value: 2
        unit: "pages"
+-
+##################################
+  start_new_week: true   # Week 6
+##################################
+  day_of_week: 0
+  reading:
     -
-     title: "Story: Codename: Delphi"
-     pages: "405-414"
+     title: "Story: Today I Am Paul"
+     pages: "449-460"
      length:
-       value: 10
+       value: 11
        unit: "pages"
 -
   day_of_week: 2
@@ -247,26 +247,20 @@
      length:
        value: 3
        unit: "pages"
-    -
-     title: "Story: Today I Am Paul"
-     pages: "449-460"
-     length:
-       value: 11
-       unit: "pages"
 -
   day_of_week: 4
   reading:
-    -
-     title: "Chapter 2.6.3: The Capability Approach"
-     pages: "84-87"
-     length:
-       value: 2
-       unit: "pages"
     -
      title: "Story: Welcome to Your Authentic Indian Experience™️"
      pages: "461-475"
      length:
        value: 14
+       unit: "pages"
+    -
+     title: "Chapter 2.6.3: The Capability Approach"
+     pages: "84-87"
+     length:
+       value: 2
        unit: "pages"
     -
      title: "Chapter 2.7: The Importance of Multiple Frameworks"
