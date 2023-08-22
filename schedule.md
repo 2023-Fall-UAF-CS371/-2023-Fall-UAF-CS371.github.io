@@ -99,15 +99,10 @@ layout: default
                                    {% endif %}
         
         
-        {% if entry.length and entry.unit %}
-            {% if entry.unit %}
                 {% capture pagetotal %}{{ pagetotal | plus: entry.length }}{% endcapture %}
                 {% capture allpagetotal %}{{ allpagetotal | plus: entry.value }}{% endcapture %}
-            {% elsif entry.unit == "minutes" %}
                 {% capture minutestotal %}{{ minutestotal | plus: entry.length }}{% endcapture %}
                 {% capture allminutestotal %}{{ allminutestotal | plus: entry.length }}{% endcapture %}              
-            {% endif %}
-        {% endif %}
         
         
         
