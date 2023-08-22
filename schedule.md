@@ -83,27 +83,23 @@ layout: default
                            {{ entry.title }} 
                        {% endif %} 
                        {% if entry.start and entry.end %}
-                           ({% if entry.unit == "page" or entry.unit == "pages" %}p.&nbsp;{% endif %}{{ entry.start }}&nbsp;-&nbsp;{{ entry.end }})
+                           ({% if entry.unit contains "page" %}p.&nbsp;{% endif %}{{ entry.start }}&nbsp;-&nbsp;{{ entry.end }})
                        {% elsif entry.start %}
-                           ({% if entry.unit == "page" or entry.unit == "pages" %}p.&nbsp;{% endif %}{{ entry.start }})
+                           ({% if entry.unit contains "page" %}p.&nbsp;{% endif %}{{ entry.start }})
                        {% elsif entry.length and entry.unit %}
                            ({{ reading.length.value }} {{ reading.length.unit }})
                        {% endif %}
                        </li>
         {% endif %}
         
-                                {% if entry.title or entry.day %}
-                                      X
-                                   {% else %}
-                                      Y
-                                   {% endif %}
         
-        
+        {% if entry.unit contains "page" %}
                 {% capture pagetotal %}{{ pagetotal | plus: entry.length }}{% endcapture %}
                 {% capture allpagetotal %}{{ allpagetotal | plus: entry.value }}{% endcapture %}
+        {% elsif entry.unit contains "minute" %}
                 {% capture minutestotal %}{{ minutestotal | plus: entry.length }}{% endcapture %}
                 {% capture allminutestotal %}{{ allminutestotal | plus: entry.length }}{% endcapture %}              
-        
+        {% endif %}
         
         
             <!-- Close the current table row for this day of the week -->    
