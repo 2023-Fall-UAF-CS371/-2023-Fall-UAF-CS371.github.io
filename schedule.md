@@ -89,7 +89,7 @@ layout: default
                        {% elsif entry.length and entry.unit %}
                            ({{ reading.length.value }} {{ reading.length.unit }})
                        {% endif %}
-                                   {% unless entry.title or entry.day %}
+                                   {% if entry.title or entry.day %}
                                       X
                                    {% else %}
                                       Y
@@ -112,7 +112,8 @@ layout: default
         
         
             <!-- Close the current table row for this day of the week -->    
-            {% unless entry.title or entry.day %}
+            {% if entry.title or entry.day %}
+            {% else %}
                 </td>
                 <td>
 			      {% if pagetotal != 0 %}
