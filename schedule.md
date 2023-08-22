@@ -91,12 +91,11 @@ layout: default
                 {% capture allpagetotal %}{{ allpagetotal | plus: entry.value }}{% endcapture %}
             {% elsif entry.unit == "minutes" %}
                 {% capture minutestotal %}{{ minutestotal | plus: entry.length }}{% endcapture %}
-                {% capture allminutestotal %}{{ allminutestotal | plus: entry.length }}{% endcapture %}               
+                {% capture allminutestotal %}{{ allminutestotal | plus: entry.length }}{% endcapture %}              
             {% endif %}
         {% endif %}
         
         
-      {% endfor %}
         
             <!-- Close the current table row for this day of the week -->    
             {% unless entry.title or entry.day %}
@@ -110,7 +109,8 @@ layout: default
             </td>        
            </tr>
            {% endunless %}
-      
+    {% endfor %}
+    
   </tbody>
 </table>
 
