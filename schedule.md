@@ -36,7 +36,7 @@ layout: default
     
         <!-- When a new day of the week is encountered... -->
         {% if entry.day %}
-                    
+                            
             <!-- Reset all page count statistics -->
             {% assign pagetotal = 0 %}
             {% assign optionalpagetotal = 0 %}
@@ -44,8 +44,17 @@ layout: default
             {% assign optionalminutestotal = 0 %}
             
             <!-- Calculate day of week as a zero-based integer, where Monday is zero -->
-        
-        
+            {% if entry.day == "M" %}
+                {% assign day_of_week = 0 %}
+            {% elsif entry.day == "T" %}            
+                {% assign day_of_week = 1 %}
+            {% elsif entry.day == "W" %}            
+                {% assign day_of_week = 2 %}
+            {% elsif entry.day == "R" %}            
+                {% assign day_of_week = 3 %}
+            {% elsif entry.day == "F" %}            
+                {% assign day_of_week = 4 %}
+            {% endif %}                                                                                                                        
 	        <!-- Declare a new table row for this day of the week -->    
 	        <tr>
 	        
