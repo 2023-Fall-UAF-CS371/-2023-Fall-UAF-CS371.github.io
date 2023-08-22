@@ -95,7 +95,7 @@ layout: default
         
         {% if entry.units contains "page" %}
                 {% capture pagetotal %}{{ pagetotal | plus: entry.length }}{% endcapture %}
-                {% capture allpagetotal %}{{ allpagetotal | plus: entry.value }}{% endcapture %}
+                {% capture allpagetotal %}{{ allpagetotal | plus: entry.length }}{% endcapture %}
         {% elsif entry.units contains "minute" %}
                 {% capture minutestotal %}{{ minutestotal | plus: entry.length }}{% endcapture %}
                 {% capture allminutestotal %}{{ allminutestotal | plus: entry.length }}{% endcapture %}              
