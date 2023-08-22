@@ -74,7 +74,7 @@ layout: default
                            {{ entry.title }} 
                        {% endif %} 
                        {% if entry.start and entry.end %}
-                           ({% if entry.unit == "page" or entry.unit == "pages" %}p.&nbsp;%}{{ entry.start }}&nbsp;-&nbsp;{{ entry.end }})
+                           ({% if entry.unit == "page" or entry.unit == "pages" %}p.&nbsp;{% endif %}{{ entry.start }}&nbsp;-&nbsp;{{ entry.end }})
                        {% elsif entry.start %}
                            ({% if entry.unit == "page" or entry.unit == "pages" %}p.&nbsp;%}{{ entry.start }})
                        {% elsif entry.length and entry.unit %}
