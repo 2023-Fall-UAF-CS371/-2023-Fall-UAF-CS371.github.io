@@ -116,10 +116,15 @@ layout: default
 			      {% endif %}
                 </td>        
            </tr>
+           
            {% endif %}
+           
     {% endfor %}
 
+  <!-- test comment -->
+
   </tbody>
+
 </table>
 
 <p>This course entails approximately {{ allpagetotal }} total pages of required readings and {{ allminutestotal | divided_by: 60 }} total hours of videos for the semester.</p>
