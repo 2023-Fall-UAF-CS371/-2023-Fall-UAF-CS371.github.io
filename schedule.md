@@ -59,7 +59,7 @@ layout: default
 	        <tr>
 	        
 	            <!-- Declare new table data entry for the current unit -->
-	            <td style="text-align: center">{% if entry.unit %}Week {% increment current_unit %}{% endif %}</td>
+	            <td style="text-align: center">{% if entry.unit %}Unit {% increment current_unit %}{% endif %}</td>
 	            
 	            <!-- Declare new table data entry for the current week -->
 	            <td style="text-align: center">{% if entry.week %}Week {% increment current_week %}{% endif %}</td>
@@ -108,6 +108,7 @@ layout: default
         
             <!-- Close the current table row for this day of the week -->    
             {% unless entry.title or entry.day %}
+                </td>
                 <td>
 			      {% if pagetotal != 0 %}
 			          <p>📖 {{ pagetotal }} pages</p>
