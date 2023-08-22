@@ -10,17 +10,12 @@ layout: default
 {{ site.data.dates.start | date: "%s" }}
 {% endcapture %}
 
-<!-- {% increment current_week %} -->
-<!-- {% assign seconds_in_day = 86400 %} -->
-
-
 
 <h3 style="text-align: center">Schedule</h3>
 
 <table class="table table-striped"> 
   <tbody>
   
-    <!-- Table header -->
     <tr>
       <th style="text-align: center">Unit</th>
       <th style="text-align: center">Week</th>
@@ -111,8 +106,13 @@ layout: default
   
   <tr><td>tefay</td></tr>
 
+  {% if true %}
   </tbody>
-
 </table>
 
 <p>This course entails approximately {{ allpagetotal }} total pages of required readings and {{ allminutestotal | divided_by: 60 }} total hours of videos for the semester.</p>
+
+  {% endif %}
+
+
+
