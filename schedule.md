@@ -124,9 +124,7 @@ layout: default
 			      {% endif %}
             </td>        
            </tr>
-           {% else %}
-           Z
-           {% endunless %}
+           {% endif %}
     {% endfor %}
     
   </tbody>
