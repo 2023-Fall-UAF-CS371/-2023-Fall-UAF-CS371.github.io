@@ -30,20 +30,15 @@ layout: default
       <th style="text-align: left">Workload</th>
     </tr>
     
-    <!-- Iterate through each reading in readings.tsv -->
-    
     {% for entry in site.data.readings %}
     
-        <!-- When a new day of the week is encountered... -->
         {% if entry.day %}
                             
-            <!-- Reset all page count statistics -->
             {% assign pagetotal = 0 %}
             {% assign optionalpagetotal = 0 %}
             {% assign minutestotal = 0 %}
             {% assign optionalminutestotal = 0 %}
             
-            <!-- Calculate day of week as a zero-based integer, where Monday is zero -->
             {% if entry.day == "M" %}
                 {% assign day_of_week = 0 %}
             {% elsif entry.day == "T" %}            
@@ -55,22 +50,16 @@ layout: default
             {% elsif entry.day == "F" %}            
                 {% assign day_of_week = 4 %}
             {% endif %}                                                                                                                        
-	        <!-- Declare a new table row for this day of the week -->    
 	        <tr>
 	        
-	            <!-- Declare new table data entry for the current unit -->
 	            <td style="text-align: center">{% if entry.unit %}Unit {% increment current_unit %}{% endif %}</td>
 	            
-	            <!-- Declare new table data entry for the current week -->
 	            <td style="text-align: center">{% if entry.week %}Week {% increment current_week %}{% endif %}</td>
 	        
-	            <!-- Declare new table data entry for the current calendar date -->
 	            <td style="text-align: center">{{ current_week | minus: 2 | times: 7 | plus: day_of_week |  times: 24 | times: 60 | times: 60 | plus: start_of_semester | date: "%A<br/>%F" }}</td>
 	            
-	            <!-- Declare new table data entry for the current topic name -->
 	            <td style="text-align: center">{% if entry.topic %}{{ entry.topic }}{% endif %}<br/>{% if entry.slides %}<a href="{{ entry.slides }}">(slides)</a>{% endif %}</td>
 	        
-	            <!-- Declare new table data entry for the readings for the current day -->
 	            <td>
 	                <ul>	        
         {% endif %}
@@ -102,7 +91,6 @@ layout: default
         {% endif %}
         
         
-            <!-- Close the current table row for this day of the week -->    
             {% if entry.title or entry.day %}
             {% else %}
                   </ul>
@@ -120,8 +108,6 @@ layout: default
            {% endif %}
            
     {% endfor %}
-
-  <!-- test comment -->
 
   </tbody>
 

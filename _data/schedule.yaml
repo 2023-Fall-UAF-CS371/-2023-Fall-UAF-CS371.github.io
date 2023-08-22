@@ -333,6 +333,12 @@
   day_of_week: 0
   reading:
     -
+     title: "Story: Lacuna Heights"
+     pages: "421-434"
+     length:
+       value: 13
+       unit: "pages"
+    -
      title: "Chapter 3.4: Automated Decision-Making Systems and Bias"
      pages: "117-123"
      length:
@@ -346,12 +352,6 @@
      pages: "123-133"
      length:
        value: 11
-       unit: "pages"
-    -
-     title: "Story: Lacuna Heights"
-     pages: "421-434"
-     length:
-       value: 13
        unit: "pages"
 -
   day_of_week: 4
