@@ -107,7 +107,7 @@ layout: default
         
         
             <!-- Close the current table row for this day of the week -->    
-            {% if entry.title == "" and entry.day == "" %}
+            {% if entry.title == false and entry.day == false %}
                 <td>
 			      {% if pagetotal != 0 %}
 			          <p>📖 {{ pagetotal }} pages</p>
