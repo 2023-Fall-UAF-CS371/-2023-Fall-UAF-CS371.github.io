@@ -92,7 +92,7 @@ layout: default
                        </li>
         {% endif %}
         
-                                           {% if entry.title or entry.day %}
+                                {% if entry.title or entry.day %}
                                       X
                                    {% else %}
                                       Y
