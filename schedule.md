@@ -83,20 +83,20 @@ layout: default
                            {{ entry.title }} 
                        {% endif %} 
                        {% if entry.start and entry.end %}
-                           ({% if entry.unit contains "page" %}p.&nbsp;{% endif %}{{ entry.start }}&nbsp;-&nbsp;{{ entry.end }})
+                           ({% if entry.units contains "page" %}p.&nbsp;{% endif %}{{ entry.start }}&nbsp;-&nbsp;{{ entry.end }})
                        {% elsif entry.start %}
-                           ({% if entry.unit contains "page" %}p.&nbsp;{% endif %}{{ entry.start }})
-                       {% elsif entry.length and entry.unit %}
+                           ({% if entry.units contains "page" %}p.&nbsp;{% endif %}{{ entry.start }})
+                       {% elsif entry.length and entry.units %}
                            ({{ reading.length.value }} {{ reading.length.unit }})
                        {% endif %}
                        </li>
         {% endif %}
         
         
-        {% if entry.unit contains "page" %}
+        {% if entry.units contains "page" %}
                 {% capture pagetotal %}{{ pagetotal | plus: entry.length }}{% endcapture %}
                 {% capture allpagetotal %}{{ allpagetotal | plus: entry.value }}{% endcapture %}
-        {% elsif entry.unit contains "minute" %}
+        {% elsif entry.units contains "minute" %}
                 {% capture minutestotal %}{{ minutestotal | plus: entry.length }}{% endcapture %}
                 {% capture allminutestotal %}{{ allminutestotal | plus: entry.length }}{% endcapture %}              
         {% endif %}
