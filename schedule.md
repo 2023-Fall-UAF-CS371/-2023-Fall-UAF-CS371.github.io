@@ -89,14 +89,14 @@ layout: default
                        {% elsif entry.length and entry.unit %}
                            ({{ reading.length.value }} {{ reading.length.unit }})
                        {% endif %}
-                                   {% if entry.title or entry.day %}
+                       </li>
+        {% endif %}
+        
+                                           {% if entry.title or entry.day %}
                                       X
                                    {% else %}
                                       Y
                                    {% endif %}
-                       </li>
-        {% endif %}
-        
         
         
         {% if entry.length and entry.unit %}
