@@ -114,6 +114,7 @@ layout: default
             <!-- Close the current table row for this day of the week -->    
             {% if entry.title or entry.day %}
             {% else %}
+                  </ul>
                 </td>
                 <td>
 			      {% if pagetotal != 0 %}
