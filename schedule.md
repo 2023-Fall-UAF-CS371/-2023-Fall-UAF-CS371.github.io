@@ -114,11 +114,11 @@ layout: default
 			      {% if minutestotal != 0 %}
 			          <p>📺 {{ minutestotal }} minutes</p>
 			      {% endif %}
-            </td>        
+                </td>        
            </tr>
            {% endif %}
     {% endfor %}
-    
+
   </tbody>
 </table>
 
