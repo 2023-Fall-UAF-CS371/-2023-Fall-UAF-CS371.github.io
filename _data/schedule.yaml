@@ -1,4 +1,6 @@
 -
+  start_new_week: true   # Week 0
+_
   start_new_week: true   # Week 1
   topic: "Introduction"
   day_of_week: 0
