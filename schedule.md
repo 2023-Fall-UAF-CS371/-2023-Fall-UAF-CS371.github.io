@@ -6,6 +6,8 @@ layout: default
 {% assign allminutestotal = 0 %}
 {% assign zero_based_week = 0 %}
 
+{% assign current_week = 1 %}
+
 {% capture start_of_semester %}
 {{ site.data.dates.start | date: "%s" }}
 {% endcapture %}
