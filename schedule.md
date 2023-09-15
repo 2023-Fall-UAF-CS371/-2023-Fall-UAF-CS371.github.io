@@ -6,8 +6,6 @@ layout: default
 {% assign allminutestotal = 0 %}
 {% assign zero_based_week = 0 %}
 
-{% assign current_unit = 1 %}
-{% assign current_week = 1 %}
 
 {% capture start_of_semester %}
 {{ site.data.dates.start | date: "%s" }}
@@ -29,7 +27,11 @@ layout: default
     </tr>
     
     {% for entry in site.data.readings %}
-    
+
+       {% if entry.week %}
+       	    {% assign current_week = entry.week %}
+       {% endif %}
+
         {% if entry.day %}
                             
             {% assign pagetotal = 0 %}
@@ -50,9 +52,9 @@ layout: default
             {% endif %}                                                                                                                        
 	        <tr>
 	        
-	            <td style="text-align: center">{% if entry.unit %}Unit {% increment current_unit %}{% endif %}</td>
+	            <td style="text-align: center">{% if entry.unit %}Unit {{ entry.unit }}{% endif %}</td>
 	            
-	            <td style="text-align: center">{% if entry.week %}Week {% increment current_week %}{% endif %}</td>
+	            <td style="text-align: center">{% if entry.week %}Week {{ entry.week }}{% endif %}</td>
 	        
 	            <td style="text-align: center">{{ current_week | minus: 2 | times: 7 | plus: day_of_week |  times: 24 | times: 60 | times: 60 | plus: start_of_semester | date: "%A<br/>%F" }}</td>
 	            
