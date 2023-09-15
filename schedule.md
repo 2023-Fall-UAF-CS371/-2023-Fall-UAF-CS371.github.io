@@ -56,7 +56,7 @@ layout: default
 	            
 	            <td style="text-align: center">{% if entry.week %}Week {{ entry.week }}{% endif %}</td>
 	        
-	            <td style="text-align: center">{{ current_week | minus: 2 | times: 7 | plus: day_of_week |  times: 24 | times: 60 | times: 60 | plus: start_of_semester | date: "%A<br/>%F" }}</td>
+	            <td style="text-align: center">{{ current_week | minus: 1 | times: 7 | plus: day_of_week |  times: 24 | times: 60 | times: 60 | plus: start_of_semester | date: "%A<br/>%F" }}</td>
 	            
 	            <td style="text-align: center">{% if entry.topic %}{{ entry.topic }}{% endif %}<br/>{% if entry.slides %}<a href="{{ entry.slides }}">(slides)</a>{% endif %}</td>
 	        
